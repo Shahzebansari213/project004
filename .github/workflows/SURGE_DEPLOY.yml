@@ -24,7 +24,7 @@ jobs:
 
     # Installs Node
     - name: Install Node.Js
-    - uses: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
         Node-Version: 12
 
